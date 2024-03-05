@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f445866f2fb68869b8de9b01be8d722f",
+    "content-hash": "7ea64f2d3d2a7b4655965ce6f0062f5f",
     "packages": [
         {
             "name": "brick/math",
@@ -1116,6 +1116,52 @@
                 }
             ],
             "time": "2023-10-27T10:59:02+00:00"
+        },
+        {
+            "name": "juiko/phosphoricon",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/juikong/phosphoricon.git",
+                "reference": "cabc92637a7353e0750e096106489dab593b01ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/juikong/phosphoricon/zipball/cabc92637a7353e0750e096106489dab593b01ff",
+                "reference": "cabc92637a7353e0750e096106489dab593b01ff",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Juiko\\PhosphorIcon\\PhosphorIconServiceProvider"
+                    ],
+                    "aliases": {
+                        "PhosphorIcon": "Juiko\\PhosphorIcon\\Facades\\PhosphorIconFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Juiko\\PhosphorIcon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juiko"
+                }
+            ],
+            "description": "Phosphor Icon Library for Laravel",
+            "support": {
+                "issues": "https://github.com/juikong/phosphoricon/issues",
+                "source": "https://github.com/juikong/phosphoricon/tree/1.0.0"
+            },
+            "time": "2024-03-03T12:36:54+00:00"
         },
         {
             "name": "laravel/breeze",
