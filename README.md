@@ -4,6 +4,8 @@ Sample React Application for Phosphor Icons Library for Laravel (https://github.
 
 ## Installation
 
+Generate APP_KEY then copy .env.example into .env file with APP_KEY
+
 Update composer
 
 ```bash
@@ -38,5 +40,5 @@ npm run build
 
 ## License
 
-[PhosphorIcons] (https://phosphoricons.com/)
+[PhosphorIcons](https://phosphoricons.com/)
 [MIT](https://choosealicense.com/licenses/mit/)
